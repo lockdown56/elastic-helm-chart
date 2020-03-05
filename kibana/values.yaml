@@ -21,7 +21,8 @@ secretMounts: []
 #    path: /usr/share/kibana/data/kibana.keystore
 #    subPath: kibana.keystore # optional
 
-image: "docker.elastic.co/kibana/kibana"
+# image: "docker.elastic.co/kibana/kibana"
+image: "lockdown56-docker.pkg.coding.net/registry/public/kibana"
 imageTag: "7.6.0"
 imagePullPolicy: "IfNotPresent"
 

@@ -47,7 +47,8 @@ envFrom: []
 # Root directory where Filebeat will write data to in order to persist registry data across pod restarts (file position and other metadata).
 hostPathRoot: /var/lib
 hostNetworking: false
-image: "docker.elastic.co/beats/filebeat"
+# image: "docker.elastic.co/beats/filebeat"
+image: "lockdown56-docker.pkg.coding.net/registry/public/filebeat"
 imageTag: "7.6.0"
 imagePullPolicy: "IfNotPresent"
 imagePullSecrets: []
